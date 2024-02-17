@@ -4,8 +4,6 @@
 
 ### Author: Daniela Vornic
 
----
-
 ## Theory
 
 Formal languages provide a framework for understanding how languages, in the broadest sense, are structured and processed. At its core, a formal language is defined by an alphabet, which is a finite set of symbols, and a set of strings formed from these symbols that are considered valid according to specific rules, known as the grammar of the language. Regular grammars, a subset of formal grammars, restrict the form of production rules and are powerful enough to describe numerous natural and artificial languages, though they cannot capture the complexities of all languages.
@@ -154,21 +152,25 @@ This laboratory exercise successfully demonstrated the implementation and functi
 The results from Figure 1 depicts the structure of the finite automaton, including its alphabet, states, initial state, accepted states, and transitions. It is observed that the automaton has been constructed with a comprehensive set of transitions between states based on the input alphabet. The presence of a 'DEAD' state indicates a design choice to handle transitions that lead to non-acceptance, effectively illustrating how the automaton processes different inputs.
 
 ![Finite Automaton Structure](./images/fa.png)
+
 _Figure 1. Generated finite automaton structure_
 
 The diagram Figure 2 is provides a graphical representation of the finite automaton. Visualizing the automaton is a critical step in understanding its structure and verifying its correctness.
 
 ![Finite Automaton Diagram](./images/diagram.svg)
+
 _Figure 2. Diagram of the finite automaton structure_
 
 In Figure 3, we see a list of strings that have been generated and tested against the automaton. Each string is marked as 'accepted', indicating that the `generate_string` method from the `Grammar` class is producing strings that are valid within the language defined by the grammar.
 
 ![Generated Strings](./images/generated_strings.png)
+
 _Figure 3. Generated strings and their acceptance status_
 
 Figure 4 shows several strings that were tested for acceptance by the automaton. The strings 'ab', 'abab', 'abababc', 'aacbc' are marked as 'rejected', which means they do not conform to the language rules as defined by the finite automaton. This reinforces the automaton's capability to discriminate between strings that belong and do not belong to the language.
 
 ![Tested Strings](./images/tested_strings.png)
+
 _Figure 4. Tested strings and their acceptance status_
 
 Overall, the results from the laboratory work validate the theoretical principles of formal languages and automata theory through practical implementation.
