@@ -1,4 +1,4 @@
-# DSL Laboratory works
+# LFA Laboratory works
 
 Laboratory works for the Formal Languages & Finite Automata course at TUM.
 
@@ -9,3 +9,4 @@ Laboratory works for the Formal Languages & Finite Automata course at TUM.
 ## Table of Contents
 
 - [Laboratory 1](lab_1/README.md)
+- [Laboratory 2](lab_2/README.md)
