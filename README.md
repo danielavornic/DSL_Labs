@@ -10,3 +10,4 @@ Laboratory works for the Formal Languages & Finite Automata course at TUM.
 
 - [Laboratory 1](lab_1/README.md)
 - [Laboratory 2](lab_2/README.md)
+- [Laboratory 3](lab_3/README.md)
