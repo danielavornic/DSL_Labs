@@ -8,6 +8,7 @@ Laboratory works for the Formal Languages & Finite Automata course at TUM.
 
 ## Table of Contents
 
-- [Laboratory 1](lab_1/README.md)
-- [Laboratory 2](lab_2/README.md)
-- [Laboratory 3](lab_3/README.md)
+- [Laboratory 1](reg_grammar/README.md)
+- [Laboratory 2](nfa_dfa/README.md)
+- [Laboratory 3](lexer/README.md)
+- [Laboratory 5](cnf/README.md)
