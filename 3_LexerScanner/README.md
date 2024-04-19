@@ -219,7 +219,7 @@ lexer = lex.lex()
 
 In conclusion, the implementation of a lexer for an image processing domain-specific language demonstrates a practical application of lexical analysis principles in the context of a specialized field. The lexer designed for this lab effectively translates a series of characters into a sequence of tokens, which include commands, flags, numerical values, image formats, and paths. By leveraging PLY the lexer is equipped with the flexibility to define complex token patterns and handle various input scenarios gracefully. Overall, this lab not only reinforces the theoretical concepts of formal languages and finite automata but also provides hands-on experience in implementing a lexer for a practical application.
 
-The source code is available in the `lexer.py` file in this folder, while the detailed results are documented in the Jupyter Notebook titled `lab3.ipynb`. This interactive notebook includes code snippets and execution outputs that demonstrate the implementation of the lexer and its behavior when tokenizing input text.
+The source code is available in the `lexer.py` file in the `src` folder, along with the detailed results documented in the Jupyter Notebook titled `main.ipynb`. This interactive notebook includes code snippets and execution outputs that demonstrate the implementation of the lexer and its behavior when tokenizing input text.
 
 ## Bibliography
 
