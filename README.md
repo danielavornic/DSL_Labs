@@ -12,3 +12,4 @@ Laboratory works for the Formal Languages & Finite Automata course at TUM.
 - [Laboratory 2](2_FiniteAutomata/README.md)
 - [Laboratory 3](3_LexerScanner/README.md)
 - [Laboratory 5](5_ChomskyNormalForm/README.md)
+- [Laboratory 5](6_ParserASTBuild/README.md)
